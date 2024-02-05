@@ -15,7 +15,6 @@ export const Login = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
   } = useForm<UserCredentials>();
 
   const onSubmit: SubmitHandler<UserCredentials> = (values) => {

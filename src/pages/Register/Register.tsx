@@ -15,7 +15,6 @@ export const Register = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
     reset,
   } = useForm<UserCredentials>();
 
