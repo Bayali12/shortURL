@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+
+  .authForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 520px;
+    padding: 20px;
+    background-color: #fff;
+
+    .logoWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding-bottom: 10px;
+      font-size: 22px;
+      font-weight: 700;
+
+      img {
+        width: 30px;
+      }
+    }
+
+    h2 {
+      margin-bottom: 32px;
+    }
+
+    .inputField {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 10px;
+      border: none;
+      border-bottom: 1px solid #c6c6c6;
+      outline: none;
+      transition: border-color 0.3s;
+      box-sizing: border-box;
+      font-size: 1rem;
+
+      &:focus {
+        border-color: #000000;
+      }
+    }
+
+    .authBtn {
+      color: white;
+      padding: 14px 20px;
+      border: 1px solid #302a82;
+      border-radius: 30px;
+      width: 100%;
+      cursor: pointer;
+      margin-top: 32px;
+      font-size: 1rem;
+      background-color: #302a82;
+      transition: all 0.2s linear;
+
+      &:hover {
+        background-color: transparent;
+        color: #302a82;
+      }
+    }
+
+    .redirectLink {
+      padding-top: 30px;
+
+      a {
+        color: #857cfc;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

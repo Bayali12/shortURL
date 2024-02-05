@@ -1,0 +1,22 @@
+.notification {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  min-width: 270px;
+  max-width: 270px;
+  background-color: #fff;
+
+  .notificationIcon {
+    height: 30px;
+    padding-right: 10px;
+  }
+}
+
+.success {
+  border: 1px solid #009029;
+}
+
+.error {
+  border: 1px solid #ff0000;
+}

@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+  background-color: #302a82;
+
+  .logoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+  }
+
+  .logout {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      border: 1px solid #fff;
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+
+  .table {
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+
+    th,
+    td {
+      border: 1px solid #302a82;
+      padding: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    th {
+      background-color: #302a82;
+      color: #fff;
+    }
+  }
+}
+
+.headCellWrapper {
+  .sortButton {
+    opacity: 0;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &:hover .sortButton,
+  .active {
+    opacity: 1;
+  }
+
+  .desc {
+    transform: rotate(180deg);
+  }
+}

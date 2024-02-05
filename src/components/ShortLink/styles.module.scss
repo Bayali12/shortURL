@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background: linear-gradient(
+    135deg,
+    rgba(48, 42, 130, 0.052) 0.525%,
+    rgba(48, 42, 130, 0.138) 100%
+  );
+
+  .shortLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4ea9f3;
+
+    .copyBtn {
+      display: flex;
+      align-items: center;
+      border: none;
+      border-radius: 5px;
+      background-color: #fff;
+      gap: 5px;
+      padding: 5px 10px;
+
+      &:hover {
+        background-color: darken(#fff, 5%);
+      }
+
+      &:active {
+        box-shadow: 0 0 0 2px rgba(48, 42, 130, 0.5);
+      }
+
+      img {
+        width: 16px;
+      }
+    }
+  }
+
+  .targetLink {
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
