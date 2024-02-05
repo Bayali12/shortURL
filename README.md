@@ -3,5 +3,8 @@
 - npm i
 - npm run dev
 
-# Demo
-- https://65c10b7f2336c600088b88a8--stirring-sunshine-793548.netlify.app/
+
+- [Demo](https://hexshorturl.netlify.app/#/login)
+
+# Credentials
+- username/password: testtask6
