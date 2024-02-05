@@ -5,3 +5,6 @@
 
 
 - [Demo](https://hexshorturl.netlify.app/#/login)
+
+# Credentials
+- username/password: testtask6
