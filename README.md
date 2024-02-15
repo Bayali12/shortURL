@@ -4,7 +4,7 @@
 - npm run dev
 
 
-- [Demo](https://taskslist12.netlify.app/)
+- [Demo](https://hexshorturl.netlify.app/#/login)
 
 # Credentials
 - username/password: testtask6
